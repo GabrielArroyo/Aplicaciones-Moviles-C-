@@ -27,19 +27,15 @@ namespace Ejercicio1
 
         }
 
-        public static double metodo1(ref double a)
+        public static double metodo1(double a)
         {
-       return  a = Math.Truncate(a);
+            return a = Math.Truncate(a);
         }
 
         public static void metodo2(double b, ref int num)
         {
-
-
             b = Math.Truncate(b);
             num += Convert.ToInt32(b);
-
-
         }
         public static void metodo3(ref double a)
         {
@@ -80,7 +76,7 @@ namespace Ejercicio1
                 switch (opcion)
                 {
                     case 1:
-                        metodo1(ref valor);
+                        metodo1(valor);
                         Console.WriteLine(valor + "\n");
                         break;
                     case 2:

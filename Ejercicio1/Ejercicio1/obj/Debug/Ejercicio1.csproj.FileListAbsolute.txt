@@ -4,3 +4,9 @@ c:\users\gabi\documents\visual studio 2015\Projects\Ejercicio1\Ejercicio1\bin\De
 c:\users\gabi\documents\visual studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
 c:\users\gabi\documents\visual studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
 c:\users\gabi\documents\visual studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
