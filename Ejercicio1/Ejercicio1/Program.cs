@@ -98,8 +98,6 @@ namespace Ejercicio1
                         metodo6(ref valor,numdec);
                         Console.WriteLine(valor + "\n");
                          break;
-
-               
                 }
 
             } while (opcion != 9);
