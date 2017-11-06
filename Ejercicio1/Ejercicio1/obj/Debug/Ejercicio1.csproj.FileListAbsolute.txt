@@ -10,3 +10,6 @@ C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\obj\De
 C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
 C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
 C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
