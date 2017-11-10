@@ -1,0 +1,2 @@
+c:\users\cfgs\documents\visual studio 2015\Projects\EjercicioTelevision\EjercicioTelevision\bin\Debug\EjercicioTelevision.exe.config
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\EjercicioTelevision\EjercicioTelevision\bin\Debug\EjercicioTelevision.exe.config
