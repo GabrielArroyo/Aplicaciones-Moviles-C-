@@ -6,13 +6,19 @@ using System.Threading.Tasks;
 
 namespace EjercicioTelevision
 {
-    class Class1
+    class ProgramaTelevision
     {
-        private String Dia;
-        private String Hora;
-        private String Programa;
+        private string Dia;
+        private string [] Horario = { "Primera Hora", "Matinal", "Mediodia", "Tarde", "Noche" };
+        private string Programa;
+        private string DuracionProg;
 
-        
+        public ProgramaTelevision(){
+            Dia = "lunes";
+            Programa = "Informativo";
+            DuracionProg = "50";       
+            
+       }    
         
     }
 }
