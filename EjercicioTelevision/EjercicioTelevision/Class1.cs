@@ -8,15 +8,14 @@ namespace EjercicioTelevision
 {
     class ProgramaTelevision
     {
-        private string Dia;
+        private string [] Dia = { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes","Sabado","Domingo" };
         private string [] Horario = { "Primera Hora", "Matinal", "Mediodia", "Tarde", "Noche" };
-        private string Programa;
-        private string DuracionProg;
+        private string [] Programa;
+        private string [] DuracionProg;
 
         public ProgramaTelevision(){
-            Dia = "lunes";
-            Programa = "Informativo";
-            DuracionProg = "50";       
+            Programa[1] = "Informativo";
+            DuracionProg[1] = "50";       
             
        }    
         
