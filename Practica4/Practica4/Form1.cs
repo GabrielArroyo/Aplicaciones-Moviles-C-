@@ -504,6 +504,7 @@ namespace Practica4
             }
             else if(total >= 5)
             {
+
                 checkBox1.Checked = false;
             }else
             {
