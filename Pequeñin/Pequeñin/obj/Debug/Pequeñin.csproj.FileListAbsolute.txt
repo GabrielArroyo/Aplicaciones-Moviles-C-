@@ -1,0 +1,6 @@
+c:\users\cfgs\documents\visual studio 2015\Projects\Pequeñin\Pequeñin\bin\Debug\Pequeñin.exe.config
+c:\users\cfgs\documents\visual studio 2015\Projects\Pequeñin\Pequeñin\bin\Debug\Pequeñin.exe
+c:\users\cfgs\documents\visual studio 2015\Projects\Pequeñin\Pequeñin\bin\Debug\Pequeñin.pdb
+c:\users\cfgs\documents\visual studio 2015\Projects\Pequeñin\Pequeñin\obj\Debug\Pequeñin.csprojResolveAssemblyReference.cache
+c:\users\cfgs\documents\visual studio 2015\Projects\Pequeñin\Pequeñin\obj\Debug\Pequeñin.exe
+c:\users\cfgs\documents\visual studio 2015\Projects\Pequeñin\Pequeñin\obj\Debug\Pequeñin.pdb

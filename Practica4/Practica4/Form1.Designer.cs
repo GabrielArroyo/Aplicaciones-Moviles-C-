@@ -1,4 +1,6 @@
-﻿namespace Practica4
+﻿using System.Windows.Forms;
+
+namespace Practica4
 {
     partial class Form1
     {
@@ -28,6 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
@@ -496,6 +499,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Panel panel2;
+        CheckBox[] hi = new CheckBox[16];
     }
 }
 

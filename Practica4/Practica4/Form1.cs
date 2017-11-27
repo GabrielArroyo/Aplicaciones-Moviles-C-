@@ -12,6 +12,7 @@ namespace Practica4
 {
     public partial class Form1 : Form
     {
+       
         private int total = 0;
         public Form1()
         {
@@ -19,6 +20,26 @@ namespace Practica4
         }
         public void rellenar()
         {
+            hi[0] = checkBox1;
+            hi[1] = checkBox2;
+            hi[2] = checkBox3;
+            hi[3] = checkBox4;
+            hi[4] = checkBox5;
+            hi[5] = checkBox6;
+            hi[6] = checkBox7;
+            hi[7] = checkBox8;
+            hi[8] = checkBox9;
+            hi[9] = checkBox10;
+            hi[10] = checkBox11;
+            hi[11] = checkBox12;
+            hi[12] = checkBox13;
+            hi[13] = checkBox14;
+            hi[14] = checkBox15;
+            hi[15] = checkBox16;
+       
+
+
+
             int cont = 0;
             Random che = new Random();
             int a = che.Next(1, 16);

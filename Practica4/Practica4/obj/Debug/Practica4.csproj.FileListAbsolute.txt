@@ -16,3 +16,4 @@ C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Prac
 C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
 C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Practica4\Practica4\obj\Debug\Practica4.Properties.Resources.resources
 C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Practica4\Practica4\obj\Debug\Practica4.csproj.GenerateResource.Cache
+C:\Users\CFGS\Documents\Visual Studio 2015\Projects\Aplicaciones-Moviles-C-\Practica4\Practica4\obj\Debug\Practica4.Form2.resources
