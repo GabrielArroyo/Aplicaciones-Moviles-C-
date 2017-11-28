@@ -30,7 +30,6 @@ namespace Practica4
         /// </summary>
         private void InitializeComponent()
         {
-
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
@@ -62,9 +61,9 @@ namespace Practica4
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.Apostar = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -114,7 +113,6 @@ namespace Practica4
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(175, 100);
             this.panel2.TabIndex = 28;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // checkBox6
             // 
@@ -125,7 +123,7 @@ namespace Practica4
             this.checkBox6.TabIndex = 14;
             this.checkBox6.Text = "6";
             this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
+            this.checkBox6.Click += new System.EventHandler(this.che6);
             // 
             // checkBox1
             // 
@@ -136,7 +134,7 @@ namespace Practica4
             this.checkBox1.TabIndex = 9;
             this.checkBox1.Text = "1";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBox1.Click += new System.EventHandler(this.che1);
             // 
             // checkBox2
             // 
@@ -147,7 +145,7 @@ namespace Practica4
             this.checkBox2.TabIndex = 10;
             this.checkBox2.Text = "2";
             this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.checkBox2.Click += new System.EventHandler(this.che2);
             // 
             // checkBox3
             // 
@@ -158,17 +156,18 @@ namespace Practica4
             this.checkBox3.TabIndex = 11;
             this.checkBox3.Text = "3";
             this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            this.checkBox3.Click += new System.EventHandler(this.che3);
             // 
             // checkBox16
             // 
             this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(132, 49);
+            this.checkBox16.Location = new System.Drawing.Point(132, 72);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(38, 17);
             this.checkBox16.TabIndex = 24;
-            this.checkBox16.Text = "15";
+            this.checkBox16.Text = "16";
             this.checkBox16.UseVisualStyleBackColor = true;
+            this.checkBox16.Click += new System.EventHandler(this.che16);
             // 
             // checkBox4
             // 
@@ -179,17 +178,18 @@ namespace Practica4
             this.checkBox4.TabIndex = 12;
             this.checkBox4.Text = "4";
             this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            this.checkBox4.Click += new System.EventHandler(this.che4);
             // 
             // checkBox15
             // 
             this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(132, 72);
+            this.checkBox15.Location = new System.Drawing.Point(132, 49);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(38, 17);
             this.checkBox15.TabIndex = 23;
-            this.checkBox15.Text = "16";
+            this.checkBox15.Text = "15";
             this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBox15.Click += new System.EventHandler(this.che15);
             // 
             // checkBox5
             // 
@@ -200,17 +200,18 @@ namespace Practica4
             this.checkBox5.TabIndex = 13;
             this.checkBox5.Text = "5";
             this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            this.checkBox5.Click += new System.EventHandler(this.che5);
             // 
             // checkBox14
             // 
             this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(132, 3);
+            this.checkBox14.Location = new System.Drawing.Point(132, 26);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(38, 17);
             this.checkBox14.TabIndex = 22;
-            this.checkBox14.Text = "13";
+            this.checkBox14.Text = "14";
             this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBox14.Click += new System.EventHandler(this.che14);
             // 
             // checkBox7
             // 
@@ -221,16 +222,18 @@ namespace Practica4
             this.checkBox7.TabIndex = 15;
             this.checkBox7.Text = "7";
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.Click += new System.EventHandler(this.che7);
             // 
             // checkBox13
             // 
             this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(132, 26);
+            this.checkBox13.Location = new System.Drawing.Point(132, 3);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(38, 17);
             this.checkBox13.TabIndex = 21;
-            this.checkBox13.Text = "14";
+            this.checkBox13.Text = "13";
             this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox13.Click += new System.EventHandler(this.che13);
             // 
             // checkBox8
             // 
@@ -241,6 +244,7 @@ namespace Practica4
             this.checkBox8.TabIndex = 16;
             this.checkBox8.Text = "8";
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.Click += new System.EventHandler(this.che8);
             // 
             // checkBox12
             // 
@@ -251,6 +255,7 @@ namespace Practica4
             this.checkBox12.TabIndex = 20;
             this.checkBox12.Text = "12";
             this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBox12.Click += new System.EventHandler(this.che12);
             // 
             // checkBox9
             // 
@@ -261,6 +266,7 @@ namespace Practica4
             this.checkBox9.TabIndex = 17;
             this.checkBox9.Text = "9";
             this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.Click += new System.EventHandler(this.che9);
             // 
             // checkBox11
             // 
@@ -271,6 +277,7 @@ namespace Practica4
             this.checkBox11.TabIndex = 19;
             this.checkBox11.Text = "11";
             this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox11.Click += new System.EventHandler(this.che11);
             // 
             // checkBox10
             // 
@@ -281,6 +288,7 @@ namespace Practica4
             this.checkBox10.TabIndex = 18;
             this.checkBox10.Text = "10";
             this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox10.Click += new System.EventHandler(this.che10);
             // 
             // panel1
             // 
@@ -346,12 +354,14 @@ namespace Practica4
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(23, 165);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(161, 23);
             this.button1.TabIndex = 7;
             this.button1.Text = "Validar apuesta >>";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -385,7 +395,7 @@ namespace Practica4
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "SIMPLE",
-            "MULTIPLE",
+            "MÚLTIPLE",
             "EXTREMA"});
             this.comboBox1.Location = new System.Drawing.Point(63, 20);
             this.comboBox1.Name = "comboBox1";
@@ -404,9 +414,9 @@ namespace Practica4
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.listBox1);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.Apostar);
-            this.groupBox2.Controls.Add(this.checkedListBox1);
             this.groupBox2.Enabled = false;
             this.groupBox2.Location = new System.Drawing.Point(420, 13);
             this.groupBox2.Name = "groupBox2";
@@ -414,6 +424,14 @@ namespace Practica4
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "RESGUARDO";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(7, 20);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(164, 160);
+            this.listBox1.TabIndex = 3;
             // 
             // button2
             // 
@@ -433,14 +451,7 @@ namespace Practica4
             this.Apostar.TabIndex = 1;
             this.Apostar.Text = "Apostar";
             this.Apostar.UseVisualStyleBackColor = true;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(7, 20);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(164, 154);
-            this.checkedListBox1.TabIndex = 0;
+            this.Apostar.Click += new System.EventHandler(this.Apostar_Click);
             // 
             // Form1
             // 
@@ -494,12 +505,13 @@ namespace Practica4
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button Apostar;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Panel panel2;
         CheckBox[] hi = new CheckBox[16];
+        int total;
+        private ListBox listBox1;
     }
 }
 
